@@ -1,0 +1,80 @@
+
+body{
+   background-color:grey;
+}
+.container{
+    height: 40vh;
+    width: 90%;
+    background-color:black;
+    padding-top: 40px;
+    margin-top:10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.animation{
+
+    background-color:white;
+    height: 40px;
+    width:40px;
+    animation-name: ani;
+    animation-duration:3s;
+    position: relative;
+    animation-fill-mode:repeat;
+    border-radius:50%;
+    border:1px solid black;
+    animation-iteration-count:5;
+   
+} 
+
+@keyframes ani{
+    0%{
+    left: 0px;
+    top: 0px;     
+    }
+    10%{
+      left: 100px;
+      top: 100px; 
+    }
+    20%{
+       left: 200px;
+       top:0px; 
+    }
+    30%{
+        left: 300px;
+        top: 100px;
+    }
+    40%{
+      left: 400px;
+      top: 0px;
+
+    }
+    50%{
+    left:500px;
+    top: 100px;
+
+    }
+    60%{
+      left: 600px;
+      top: 0px; 
+    }
+    70%{
+   left: 700px;
+   top: 100px;
+
+    }
+    80%{
+     left: 800px;   
+     top: 0px;
+
+    }
+    90%{
+  left: 900px;
+  top: 100px;
+   }
+   100%{
+   left: 1000px;
+   top: 0px;
+   }
+}
